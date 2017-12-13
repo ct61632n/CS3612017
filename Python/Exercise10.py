@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from mailcap import show
-
 
 x = np.arange(0.0, 2.0, 0.05)
 y = np.sin((x-2)**2)*(np.e**(-x**2))
